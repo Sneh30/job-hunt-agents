@@ -1,0 +1,22 @@
+# secrets and local config
+.env
+**/.env
+**/config/settings.json
+**/config/state.json
+
+# generated artifacts and personal data
+**/runs/
+**/logs/*.log
+master_recruiter_tracker*.xlsx
+*.backup-*.xlsx
+**/resume/*
+!**/resume/README.md
+
+# dependencies and caches
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store

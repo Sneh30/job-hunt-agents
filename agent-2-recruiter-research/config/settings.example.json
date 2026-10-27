@@ -1,0 +1,30 @@
+{
+  "project_root": "<absolute path to agent-2-recruiter-research>",
+  "portfolio_url": "https://example.com/portfolio",
+  "linkedin_url": "https://www.linkedin.com/in/your-handle/",
+  "github_url": "https://github.com/your-handle",
+  "candidate_name": "Your Name",
+  "graduation_year": 2027,
+  "default_geography": "Your target geography and work-authorization constraints",
+  "role_types": [
+    "full-time",
+    "graduate-program",
+    "internship",
+    "paid-apprenticeship"
+  ],
+  "target_companies_per_run": 10,
+  "target_recruiters_per_run": 20,
+  "target_contacts_per_company": 2,
+  "use_only_current_apollo_plan": true,
+  "require_approval_before_credit_consuming_enrichment": true,
+  "gmail_ui_only": true,
+  "never_send_automatically": true,
+  "create_scheduler": false,
+  "resume_pdf_requires_user_review_before_attachment": true,
+  "daily_output_columns": [
+    "name",
+    "company",
+    "mail",
+    "linkdin"
+  ]
+}
